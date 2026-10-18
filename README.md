@@ -2,12 +2,10 @@
 
 ![Portada del proyecto](images/portada.png)
 
-**Challenge 1 (Individual) · Pipeline de Machine Learning · UPCH · 2026-II**  
+**Challenge 2 (Individual) · Pipeline de Machine Learning · UPCH · 2026-II**  
 **Tema:** Tipo A — Minería de asteroides  
-**Estudiante:** [TU NOMBRE Y APELLIDOS]  
+**Estudiante:** Cesar Rodrigo Milla Gomez 
 **Docente:** Yannick Patrick Carrasco Merma
-
-> **Importante:** propuesta académica adaptable al enunciado de Minería de Asteroides del examen parcial. Datos completamente sintéticos. Las cifras no representan predicciones económicas reales.
 
 ## 🎯 1. Caso, problema y objetivos (5 puntos)
 La minería de asteroides es una actividad propuesta para extraer recursos de cuerpos menores del sistema solar. Las misiones son costosas y existen múltiples candidatos con diferentes distancias, masas y concentraciones de materiales. Decidir cuáles explorar o explotar puede representarse como un problema de predicción y optimización bajo restricciones.
@@ -62,7 +60,6 @@ El algoritmo explora decisiones de inclusión/exclusión de cada candidato, desc
 ml-mineria-asteroides/
 ├── README.md
 ├── requirements.txt
-├── .gitignore
 ├── data/
 │   └── asteroides_sinteticos.csv
 ├── docs/
@@ -75,28 +72,7 @@ ml-mineria-asteroides/
     ├── 01_razonamiento_busqueda.ipynb
     └── 02_prediccion_visualizacion.ipynb
 ```
-
-## ▶️ Cómo ejecutar en Google Colab
-1. Crear un repositorio **público o privado según las instrucciones del docente** llamado `ml-mineria-asteroides` y subir los archivos **conservando carpetas**.
-2. Abrir [Google Colab](https://colab.research.google.com/), elegir **GitHub** y pegar la URL del repositorio para abrir cada notebook, o descargar los `.ipynb` y abrirlos desde tu equipo.
-3. **Recomendado:** ejecutar `!git clone https://github.com/TU_USUARIO/ml-mineria-asteroides.git` en una celda de Colab y ` %cd ml-mineria-asteroides` (sustituir usuario) para que ambos notebooks encuentren `data/` de forma local; alternativamente cambia `GITHUB_USUARIO` en los notebooks para que lean el CSV desde GitHub (requiere repositorio público).
-4. Ejecutar todas las celdas **en orden** y verificar las métricas y las gráficas.
-5. Guardar en GitHub los notebooks ejecutados si el docente solicita evidencias de salidas; no incluir credenciales.
-
-## 📚 Alcance y limitaciones
-- Las variables y costos son hipótesis ilustrativas; **no** se ha validado ningún yacimiento, misión o estimación financiera.
-- El primer notebook optimiza beneficios sintéticos conocidos, no predicciones del segundo cuaderno; esta separación evita presentar un rendimiento ficticio como validación operacional.
-- Para integrar ambos notebooks en un proyecto futuro, las estimaciones del modelo deben construirse con datos independientes y evaluar incertidumbre fuera de muestra.
-
-## ✅ Rúbrica cubierta
-- [x] Caso, problema y justificación de IA/ML.
-- [x] Estados, operadores, restricciones y visualización.
-- [x] Problema → espacio de estados → exploración → búsqueda → resultado.
-- [x] Dataset sintético → modelo de regresión → métricas → gráficos.
-
 ## 📖 Fuentes orientativas
 - [NASA — Asteroids](https://science.nasa.gov/solar-system/asteroids/)
 - [Scikit-learn — Ridge](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.Ridge.html)
 - [Scikit-learn — Pipeline](https://scikit-learn.org/stable/modules/generated/sklearn.pipeline.Pipeline.html)
-
-*El enunciado individual del examen parcial no está incluido en los archivos recibidos; ajustar el problema si ese caso fija otras condiciones.*
