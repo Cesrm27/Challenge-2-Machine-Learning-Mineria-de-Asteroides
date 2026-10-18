@@ -69,12 +69,11 @@ El algoritmo explora decisiones de inclusión/exclusión de cada candidato, desc
 ```text
 ml-mineria-asteroides/
 ├── README.md
-├── .gitignore
 ├── data/
 │   └── asteroides_sinteticos.csv
 ├── docs/
 │   ├── metodologia.md
-│   └── instrucciones_colab.md
+│   └── vinculo_examen.md
 ├── images/
 │   ├── portada.png
 │   ├── espacio_estados.png
